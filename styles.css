@@ -12,12 +12,12 @@
 .login-form {
     position: relative;
     width: 400px;
-    height: 480px;
+    height: 380px;
     padding: 15px 25px 0 25px;
     margin-top: 15px;
     cursor: default;
    
-    background-color: #141517;
+    background-color: #142000;
    
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -54,6 +54,7 @@
 .login-form input[type=text],
 .login-form input[type=email],
 .login-form input[type=tel],
+.login-form input[type=number],
 .login-form input[type=submit] {
  line-height: 14px;
  margin: 10px 0;
@@ -79,6 +80,7 @@
 .login-form input[type=text],
 .login-form input[type=email],
 .login-form input[type=tel],
+.login-form input[type=number],
 .js .login-form span {
  color: #686868;
  width: 170px;

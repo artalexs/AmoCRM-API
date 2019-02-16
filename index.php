@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 
     <h1>Авторизация</h1>
 
-    <form action="send.php" method="post">
+    <form action="auth.php" method="post">
 
     <input type="text" name="name" id="contact_name" placeholder="Имя">
 
@@ -22,9 +22,11 @@
 
     <input type="text" name="position" id="contact_position" placeholder="Должность">
 
-    <input type="tel" name="phone" id="contact_phone" placeholder="Телефон">
+    <input  type="text" placeholder="Ваш телефонный номер"  maxlength='15' name="phone" id="contact_phone" >
 
     <input type="email" name="email" id="contact_email" placeholder="E-mail">
+
+    <input type="number" name="budget" id="budget" placeholder="Бюджет (в рублях)">
 
     <input type="submit" value="Отправить">
 </form>
